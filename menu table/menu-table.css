@@ -1,0 +1,58 @@
+/*
+menu
+*/
+#menu {
+	width:800px;
+	height:200px;
+	margin:auto;
+	background:#f0f0f0;
+}
+#menu ul{
+	display:table;
+	width:100%;
+	table-layout:fixed;
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+#menu li{
+	position:relative;
+	display:table-cell;
+	
+}
+#menu li a{
+	display:inline-block;
+	/*float:left;*/
+	height:50px;
+	line-height:50px;
+	padding: 0 20px;
+	background: #69c;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration:none;
+	width:100%;text-align:center;
+}
+#menu li a:hover{
+	background:#369;
+}
+#menu li ul{
+	display:none;
+	position:absolute;
+	left:0;
+}
+#menu li:hover ul{
+	display:block;
+}
+#menu li li{
+	float:none;
+}
+#menu li li a{
+	display:block;
+	background: #f60;
+	/*white-space:nowrap;/*pre;pre*//*nowrap;*//*отношение к пробельным символам по умолчанию normal*/
+}	
+#menu li li a:hover{
+	background:#d30;
+}

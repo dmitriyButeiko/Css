@@ -1,0 +1,17 @@
+/*lte ie6*/
+html #main{
+	height:100%;
+}
+html #footer .border{
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='i/border.png'
+		sizingMethod = 'crop'
+		);
+}
+*html #all{
+	width:100%;
+}
+#menu{
+	cursor:pointer;
+}

@@ -1,0 +1,36 @@
+table{
+	/*table-layout: fixed;*/
+	/*separate*/
+	border-spacing:40px 20px;
+	background:#e6e6e6;
+	empty-cells:hide;
+	caption-side:bottom;/*top bottom*/
+	border-collapse:collapse;
+}
+caption{
+font:italic 30px 'palatino lynotype', 'book antiqua', serif;
+padding:20px 0 0 0;
+}
+td{
+	padding:10px;
+	border-top:5px solid #369;
+	border-left:5px solid #369;
+	background:#fff;
+	/*border-radius: 20px;*/
+}
+td:first-child{
+	border-left:0;
+}
+thead tr:first-child td{
+	border-top:0;
+}
+.first{
+	width:100px;
+}
+.color{
+/*border:5px solid #000*/;
+}
+}
+.bottom{
+
+}
